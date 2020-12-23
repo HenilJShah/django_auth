@@ -9,7 +9,7 @@ from django.contrib.auth.models import Group
 # models
 from .models import student_data_db
 
-# own deco
+# create own deco.
 from .rols_deco import unauthenticated_user, allowed_users, admin_only
 
 # usercreate forms
